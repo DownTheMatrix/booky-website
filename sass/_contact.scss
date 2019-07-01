@@ -1,76 +1,75 @@
 #contact {
-    padding: 10rem 2rem;
-    background: url("../img/bg-wave-blue.svg") no-repeat center center/cover;
+  padding: 10rem 2rem;
+  background: url("../img/bg-wave-blue.svg") no-repeat center center/cover;
 
-    .contact-container {
+  .contact-container {
+    .contact-text {
+      text-align: center;
 
-        .contact-text {
-            text-align: center;
+      h2 {
+        font-size: 3rem;
+        color: #fff;
 
-            h2 {
-                font-size: 3rem;
-                color: #fff;
-
-                @media (min-width: 960px) {
-                    font-size: 4.5rem;
-                    line-height: 1.2;
-                  }
-            }
+        @media (min-width: 960px) {
+          font-size: 4.5rem;
+          line-height: 1.2;
         }
-
-        .contact-form {
-            margin-top: 2rem;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-
-           .contact-form-fields {
-               display: flex;
-               flex-direction: column;
-               padding: 2rem;
-               justify-content: center;
-               align-items: center;
-               width: 100%;
-
-               @media (min-width: 768px) {
-                flex-direction: row;
-                width: 50%;
-            }
-
-            input[type="email"] {
-                width: 100%;
-                padding: 1.5rem;
-                font-size: 1.6rem;
-                font-family: inherit;
-                border-radius: 0.455rem;
-                border: 1px solid #0F66DC;
-            }
-
-            button {
-                margin-top: 2rem;
-                font-family: inherit;
-                font-size: 1.8rem;
-                padding: 1.45rem 3rem;
-                background-color: #F28233;
-                border-radius: 0.455rem;
-                transition: all 0.2s ease;
-                margin-top: 1rem;
-                font-family: inherit;
-                font-weight: 600;
-                border: none;
-                color: #fff;
-
-                @media (min-width: 768px) {
-                    margin-top: 0;
-                    margin-left: 1rem;
-                }
-
-                &:hover {
-                    cursor: pointer;
-                    background-color: lighten(#F28233, 5%);
-                }
-            }
-           }
-        }
+      }
     }
+
+    .contact-form {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+
+      .contact-form-fields {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+        @media (min-width: 768px) {
+          flex-direction: row;
+          width: 50%;
+        }
+
+        input[type="email"] {
+          width: 100%;
+          padding: 1.5rem;
+          font-size: 1.6rem;
+          font-family: inherit;
+          border-radius: 0.455rem;
+          border: 1px solid #0f66dc;
+        }
+
+        button {
+          margin-top: 2rem;
+          font-family: inherit;
+          font-size: 1.8rem;
+          padding: 1.45rem 3rem;
+          background-color: #f28233;
+          border-radius: 0.455rem;
+          transition: all 0.2s ease;
+          margin-top: 1rem;
+          font-family: inherit;
+          font-weight: 600;
+          border: none;
+          color: #fff;
+
+          @media (min-width: 768px) {
+            margin-top: 0;
+            margin-left: 1rem;
+          }
+
+          &:hover {
+            cursor: pointer;
+            background-color: lighten(#f28233, 5%);
+          }
+        }
+      }
+    }
+  }
 }
