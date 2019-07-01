@@ -15,6 +15,10 @@
             margin: 5rem auto;
         }
 
+        @media (min-width: 960px) {
+          max-width: 75%;
+      }
+
       h2 {
         font-size: 3rem;
 
