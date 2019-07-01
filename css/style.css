@@ -82,7 +82,7 @@ ul {
           background-color: #0f66dc;
           color: #fff;
           padding: 1rem 3rem;
-          border-radius: 0.3125rem;
+          border-radius: 0.435rem;
           transition: all 0.2s ease;
           margin-bottom: 1rem;
           border: none; }
@@ -156,7 +156,10 @@ ul {
     #hero .hero-container .hero-form input[type="email"] {
       padding: 1.5rem;
       width: 100%;
-      font-family: inherit; }
+      font-family: inherit;
+      border: none;
+      border: 1px solid #ccc;
+      border-radius: 0.435rem; }
       @media (min-width: 768px) {
         #hero .hero-container .hero-form input[type="email"] {
           width: 50%; } }
@@ -164,8 +167,8 @@ ul {
       font-size: 1.6rem;
       background-color: #0F66DC;
       color: #fff;
-      padding: 1.45rem 3rem;
-      border-radius: 0.455rem;
+      padding: 1.30rem 3rem;
+      border-radius: 0.435rem;
       transition: all 0.2s ease;
       margin-top: 1rem;
       font-family: inherit;
@@ -657,7 +660,10 @@ ul {
         padding: 1rem;
         width: 100%;
         font-size: 1.4rem;
-        font-family: inherit; }
+        font-family: inherit;
+        border: none;
+        border: 1px solid #ccc;
+        border-radius: 0.435rem; }
         @media (min-width: 768px) {
           #footer .footer-container .subscribe .subscribe-form input[type="email"] {
             font-size: 1.6rem; } }
@@ -671,7 +677,8 @@ ul {
         background-color: #0f66dc;
         color: #fff;
         border: none;
-        transition: all 0.2s ease; }
+        transition: all 0.2s ease;
+        border-radius: 0.435rem; }
         #footer .footer-container .subscribe .subscribe-form button:hover {
           cursor: pointer;
           background-color: #0b4aa0; }
