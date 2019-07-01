@@ -1,0 +1,126 @@
+#footer {
+  padding: 4rem 2rem;
+  background-color: #031328;
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+
+    @media (min-width: 990px) {
+        grid-template-columns: 1fr 2fr 2fr;
+    }
+
+    .sections-summary {
+
+      ul {
+        display: grid;
+        grid-gap: 0.5rem;
+
+        li {
+          font-size: 1.6rem;
+
+          a:link,
+          a:visited {
+            text-decoration: none;
+            color: #fff;
+            opacity: 0.5;
+            transition: opacity 0.4s;
+
+            &:hover,
+            &:active {
+              opacity: 1;
+            }
+          }
+
+          h3 {
+            font-size: 2rem;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .contacts-list {
+
+      ul {
+        display: grid;
+        grid-gap: 1rem;
+
+        li {
+          font-size: 1.6rem;
+          display: flex;
+          color: #fff;
+
+          h3 {
+            font-size: 2rem;
+            color: #fff;
+          }
+
+          span.contact-icon {
+            margin-right: 3rem;
+            i {
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+
+    .subscribe {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-gap: 1rem;
+
+      @media (min-width: 990px) {
+        grid-column: auto;
+    }
+
+      h3 {
+        font-size: 2rem;
+        color: #fff;
+      }
+
+      h4 {
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #fff;
+      }
+
+      .subscribe-form {
+        input[type="email"] {
+          padding: 1rem;
+          width: 100%;
+          font-size: 1.4rem;
+          font-family: inherit;
+
+          @media (min-width: 768px) {
+            font-size: 1.6rem;
+          }
+        }
+
+        button {
+          margin-top: 1rem;
+          display: block;
+          width: 100%;
+          padding: 1rem 1.25rem;
+          font-size: 1.4rem;
+          font-family: inherit;
+          background-color: #0f66dc;
+          color: #fff;
+          border: none;
+          transition: all 0.2s ease;
+
+          &:hover {
+            cursor: pointer;
+            background-color: darken(#0d55b8, 5%);
+          }
+
+          @media (min-width: 768px) {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+}
