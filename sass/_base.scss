@@ -18,6 +18,10 @@ body {
     position: relative;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Utility Classes */
 .container {
     max-width: 110rem;
