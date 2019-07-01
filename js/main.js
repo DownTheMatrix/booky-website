@@ -26,4 +26,5 @@ for (let i = 0; i < STATS_ICON.length; i++) {
   });
 }
 
+// Wait until the DOM is ready
 document.addEventListener("DOMContentLoaded", init);
