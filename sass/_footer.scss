@@ -2,6 +2,10 @@
   padding: 4rem 2rem;
   background-color: #031328;
 
+  @media (min-width: 990px) {
+      padding: 6rem 4rem;
+  }
+
   .footer-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -15,7 +19,7 @@
 
       ul {
         display: grid;
-        grid-gap: 0.5rem;
+        grid-gap: 0.7rem;
 
         li {
           font-size: 1.6rem;
@@ -122,5 +126,71 @@
         }
       }
     }
+
+    .social-icons {
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: center;
+
+        .social-icon {
+            transition: opacity .2s;
+            opacity: 0.5;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &:not(:last-child) {
+                margin-right: 3rem;
+            }
+            
+            i {
+                color: #fff;
+                font-size: 2.5rem;
+                cursor: pointer;
+                transition: color .2s;
+
+                @media (min-width: 768px) {
+                    font-size: 3rem;
+                }
+               
+                &.facebook-icon:hover {
+                    color: #3b5999;
+                }
+
+                &.twitter-icon:hover {
+                    color: #55acee;
+                }
+
+                &.medium-icon:hover {
+                    color: #02b875;
+                }
+
+                &.dribbble-icon:hover {
+                    color: #ea4c89;
+                }
+
+                &.behance-icon:hover {
+                    color: #053eff;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        grid-column: 1 / -1;
+        text-align: center;
+
+        p {
+            color: #fff;
+            font-size: 1.4rem;
+            opacity: 0.7;
+
+            @media (min-width: 768px) {
+                font-size: 1.6rem;
+            }
+        }
+    }
+
   }
 }
