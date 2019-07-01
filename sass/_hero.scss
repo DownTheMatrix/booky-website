@@ -66,6 +66,9 @@
         padding: 1.5rem;
         width: 100%;
         font-family: inherit;
+        border: none;
+        border: 1px solid #ccc;
+        border-radius: 0.435rem;
 
         @media (min-width: 768px) {
             width: 50%;
@@ -76,8 +79,8 @@
         font-size: 1.6rem;
         background-color: #0F66DC;
         color: #fff;
-        padding: 1.45rem 3rem;
-        border-radius: 0.455rem;
+        padding: 1.30rem 3rem;
+        border-radius: 0.435rem;
         transition: all 0.2s ease;
         margin-top: 1rem;
         font-family: inherit;
