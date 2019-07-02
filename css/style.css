@@ -637,7 +637,11 @@ ul {
       #footer .footer-container .contacts-list ul li {
         font-size: 1.6rem;
         display: flex;
+        flex-wrap: wrap;
         color: #fff; }
+        @media (min-width: 500px) {
+          #footer .footer-container .contacts-list ul li {
+            flex-wrap: nowrap; } }
         #footer .footer-container .contacts-list ul li h3 {
           font-size: 2rem;
           color: #fff; }

@@ -54,7 +54,12 @@
         li {
           font-size: 1.6rem;
           display: flex;
+          flex-wrap: wrap;
           color: #fff;
+
+          @media (min-width: 500px) {
+            flex-wrap: nowrap;
+          }
 
           h3 {
             font-size: 2rem;
