@@ -11,7 +11,7 @@ To get started:
 + download the code as a `.zip` file or clone this repository to your system
 + when inside of the newly created folder, simply double click on the `index.html` file
 
-Alternatively, you can view the live version [here]() (hosted by Netlify).
+Alternatively, you can view the live version [here](https://lucid-golick-4aadcc.netlify.com/) (hosted by Netlify).
 
 ### Code Dependencies
 
