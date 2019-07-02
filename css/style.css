@@ -308,6 +308,9 @@ ul {
 #workflow {
   background: url("../img/bg-wave-reversed.svg") no-repeat center center/cover;
   padding: 2rem 2rem 20rem 2rem; }
+  @media (min-width: 768px) {
+    #workflow {
+      padding-top: 5rem; } }
   #workflow .workflow-container {
     max-width: 72rem;
     margin: 0 auto; }
