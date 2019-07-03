@@ -2,7 +2,7 @@
   background: url("../img/bg-wave-reversed.svg") no-repeat center center/cover;
   padding: 2rem 2rem 20rem 2rem;
 
-  @media (min-width: 768px) {
+  @media (min-width: 48em) {  // 768px
     padding-top: 5rem;
   }
 
@@ -10,17 +10,17 @@
     max-width: 72rem;
     margin: 0 auto;
 
-    @media (min-width: 550px) {
+    @media (min-width: 34.375em) {  // 550px
       padding: 0 3rem;
     }
 
-    @media (min-width: 990px) {
+    @media (min-width: 61.875em) {  // 990px
       padding: 0 2rem;
       max-width: 120rem;
     }
 
     .workflow-grid-wrapper {  /* Main Grid Container */
-      padding: 2rem;
+      padding: 0;
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: auto;
@@ -29,13 +29,13 @@
         "text"
         "cards";
 
-      @media (min-width: 990px) {
-        grid-column-gap: 5rem;
+      @media (min-width: 61.875em) {
+        grid-gap: 4rem;
         padding: 0 5rem;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
           "image text"
-          "image cards";
+          "cards cards";
       }
 
       .workflow-img-wrapper {
@@ -52,14 +52,14 @@
         grid-area: text;
         text-align: center;
 
-        @media (min-width: 990px) {
+        @media (min-width: 61.875em) {
           text-align: left;
         }
 
         h2 {
           font-size: 3rem;
 
-          @media (min-width: 960px) {
+          @media (min-width: 60em) {
             font-size: 4.5rem;
             line-height: 1.2;
           }
@@ -69,7 +69,7 @@
           margin-top: 1.5rem;
           font-size: 1.6rem;
 
-          @media (min-width: 960px) {
+          @media (min-width: 60em) {
             font-size: 2rem;
           }
         }
@@ -81,7 +81,7 @@
         grid-gap: 1rem;
         grid-area: cards;
 
-        @media (min-width: 550px) {
+        @media (min-width: 34.375em) {
           grid-gap: 2rem;
           grid-template-columns: 1fr 1fr;
         }
@@ -92,7 +92,7 @@
           padding: 2rem;
           border-radius: 0.8rem;
           display: grid;
-          grid-template-columns: 1fr 2fr;
+          grid-template-columns: 1fr 3fr;
           align-items: center;
           transition: all 0.4s;
 
@@ -102,20 +102,20 @@
             box-shadow: 0.5rem 0.5rem 0 rgba(233, 236, 239, 0.5);
           }
 
-          @media (min-width: 550px) {
+          @media (min-width: 34.375em) {
             grid-template-columns: 1fr 2fr;
           }
 
-          @media (min-width: 768px) {
-            grid-template-columns: 1fr 2fr;
+          @media (min-width: 48em) {
+            grid-template-columns: 1fr 3fr;
           }
 
-          @media (min-width: 990px) {
-            grid-template-columns: 1fr 1fr;
+          @media (min-width: 61.875em) {
+            grid-template-columns: 1fr 3fr;
           }
 
-          @media (min-width: 1020px) {
-            grid-template-columns: 1fr 2fr;
+          @media (min-width: 81.25em) {  // 1300px
+            grid-template-columns: 1fr 5fr;
           }
 
           img {
@@ -152,7 +152,7 @@
         "bullet-list"
         "bullet-image";
 
-      @media (min-width: 768px) {
+      @media (min-width: 48em) {
         grid-gap: 2rem;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: "bullet-list bullet-image";
@@ -164,7 +164,7 @@
         display: grid;
         grid-gap: 3rem;
 
-        @media (min-width: 768px) {
+        @media (min-width: 48em) {
           grid-gap: 1.5rem;
         }
 
@@ -172,7 +172,7 @@
           display: grid;
           grid-template-columns: 1fr 6fr;
 
-          @media (min-width: 768px) {
+          @media (min-width: 48em) {
             grid-template-columns: 1fr 8fr;
           }
 
@@ -202,11 +202,11 @@
             h4 {
               font-size: 1.8rem;
 
-              @media (min-width: 768px) {
+              @media (min-width: 48em) {
                 font-size: 2rem;
               }
 
-              @media (min-width: 960px) {
+              @media (min-width: 60em) {
                 font-size: 2.2rem;
               }
             }
@@ -215,11 +215,11 @@
               margin-top: 1rem;
               font-size: 1.4rem;
 
-              @media (min-width: 768px) {
+              @media (min-width: 48em) {
                 font-size: 1.6rem;
               }
 
-              @media (min-width: 960px) {
+              @media (min-width: 60em) {
                 font-size: 1.8rem;
               }
             }
@@ -231,8 +231,8 @@
         grid-area: bullet-image;
         margin-top: 3rem;
 
-        @media (min-width: 768px) {
-          align-self: end;
+        @media (min-width: 48em) {
+          align-self: center;
           margin-top: 0;
         }
 

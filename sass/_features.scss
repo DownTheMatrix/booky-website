@@ -3,7 +3,7 @@
     background: url("../img/bg-wave.svg") no-repeat center center/cover;
     padding: 10rem 4rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: 48em) {  // 768px
       padding: 4rem 4rem;
     }
 
@@ -13,7 +13,7 @@
         margin: 8rem 0;
         line-height: 1.4;
 
-        @media (min-width: 768px) {
+        @media (min-width: 48em) {
             margin: 5rem 0;
         }
 
@@ -21,7 +21,7 @@
         font-size: 3rem;
         text-align: center;
 
-        @media (min-width: 960px) {
+        @media (min-width: 60em) {  // 960px
           font-size: 4.5rem;
           line-height: 1.2;
         }
@@ -33,7 +33,7 @@
       grid-template-columns: 1fr;
       grid-gap: 2rem;
 
-      @media (min-width: 768px) {
+      @media (min-width: 48em) {
         grid-template-columns: repeat(3, 1fr);
       }
 

@@ -8,24 +8,24 @@
             margin-bottom: 8rem;
             text-align: center;
 
-            @media (min-width: 768px) {
+            @media (min-width: 48em) {  // 768px
                 max-width: 60%;
                 margin: 5rem auto;
             }
 
-            @media (min-width: 960px) {
+            @media (min-width: 60em) {  // 960px
                 max-width: 75%;
             }
 
             h2 {
                 font-size: 2.8rem;
 
-                @media (min-width: 768px) {
+                @media (min-width: 48em) {
                     font-size: 4rem;
                     line-height: 1.2;
                   }
                 
-                @media (min-width: 960px) {
+                @media (min-width: 60em) {
                     font-size: 6rem;
                     line-height: 1.2;
                   }
@@ -35,7 +35,7 @@
                 margin-top: 1rem;
                 font-size: 1.6rem;
       
-                @media (min-width: 960px) {
+                @media (min-width: 60em) {
                   margin-top: 3rem;
                   font-size: 2rem;
               }
@@ -51,7 +51,7 @@
             align-items: center;
             grid-gap: 5rem;
 
-            @media (min-width: 768px) {
+            @media (min-width: 48em) {
                 grid-template-columns: repeat(3, 1fr);
             }
 

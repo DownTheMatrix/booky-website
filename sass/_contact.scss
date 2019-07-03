@@ -10,7 +10,7 @@
         font-size: 3rem;
         color: #fff;
 
-        @media (min-width: 960px) {
+        @media (min-width: 60em) {  // 960px
           font-size: 4.5rem;
           line-height: 1.2;
         }
@@ -31,7 +31,7 @@
         align-items: center;
         width: 100%;
 
-        @media (min-width: 768px) {
+        @media (min-width: 48em) {  // 768px
           flex-direction: row;
           width: 50%;
         }
@@ -59,7 +59,7 @@
           border: none;
           color: #fff;
 
-          @media (min-width: 768px) {
+          @media (min-width: 48em) {  // 768px
             margin-top: 0;
             margin-left: 1rem;
           }
