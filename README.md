@@ -1,5 +1,7 @@
 # Overview
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4846529c-ce65-430f-93f1-b2025c65b6ed/deploy-status)](https://app.netlify.com/sites/lucid-golick-4aadcc/deploys)
+
 Booky is a website that allows web developers and designers to easily access hundreds of different creative resources (ready-made illustrations, vectors, icons, etc.) and use them into their projects. 
 
 ![Website screenshot](https://raw.githubusercontent.com/DownTheMatrix/booky-website/master/Screenshot.png)
