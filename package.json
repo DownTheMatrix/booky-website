@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.3.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "yargs-parser": "^20.2.1"
   }
