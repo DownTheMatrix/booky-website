@@ -17,6 +17,7 @@
     "@glidejs/glide": "^3.3.0",
     "lodash": "^4.17.19",
     "minimist": "^1.2.5",
+    "tar": "^6.1.11",
     "yargs-parser": "^20.2.1"
   }
 }
