@@ -18,6 +18,7 @@
     "lodash": "^4.17.21",
     "minimist": "^1.2.5",
     "tar": "^6.1.11",
+    "trim-newlines": "^4.0.2",
     "yargs-parser": "^20.2.1"
   }
 }
